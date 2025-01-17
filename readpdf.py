@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 import io, time
 from PyPDF2 import PdfReader, PdfWriter  # Para manejar archivos PDF
-from ia import get_inference_for_pdf, get_inference_for_pdf_open_ai
+from ia import  get_inference_for_pdf_open_ai
 
 def get_data_user(pdf_path):
     certificado = {

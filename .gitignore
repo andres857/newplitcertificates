@@ -1,0 +1,8 @@
+certificates/
+venv/
+env/
+temp
+certificates-raw
+certificates-split
+__pycache__
+.env
